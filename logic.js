@@ -17,7 +17,7 @@ document.onkeydown = function(event){
      }
      else  if(code=="ArrowDown")
      {
-         if(topp<=94)
+         if(topp<=95)
          {
              topp += 5;
              id.style.marginTop = topp + "vh";
@@ -25,7 +25,7 @@ document.onkeydown = function(event){
      }
      else  if(code=="ArrowRight")
      {
-         if(leftt<=94)
+         if(leftt<=95)
          {
              leftt += 5;
              id.style.marginLeft = leftt + "vw";
@@ -33,7 +33,7 @@ document.onkeydown = function(event){
      }
      else  if(code=="ArrowLeft")
      {
-         if(leftt>=4)
+         if(leftt>=5)
          {
              leftt -= 5;
              id.style.marginLeft = leftt + "vw";
