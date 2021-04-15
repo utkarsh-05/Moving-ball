@@ -1,0 +1,16 @@
+body{
+    /* display: grid;
+    place-items: center;
+   justify-content: center;
+   align-content: center; */
+   background-color: lightgrey;
+}
+.flex{
+    display: flex;
+    border-radius: 50%;
+    background-color: rgb(0, 81, 255);
+    height: 100px;
+    width: 100px;
+    margin-top: 40vh;
+    margin-left: 45vw;
+}
