@@ -8,7 +8,7 @@ document.onkeydown = function(event){
     //  console.log(top);
      if(code=="ArrowUp")
      {
-         if(topp>=6)
+         if(topp>=5)
          {
              topp -= 5;
              id.style.marginTop = topp + "vh";
